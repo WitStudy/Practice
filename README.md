@@ -1,43 +1,23 @@
-# 共同開発環境作成手順
+﻿### Cardステータスの更新
+作業を行う前に、作業中であることを示すために
+「Projects」の「Card」の更新を行います。<br>
+以下を参考にCardのステータスを「作業中」に変更してください。
+#### [タスクの管理方法](https://github.com/WitStudy/PMSystem/wiki/%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95)
 
-## Windows環境でのGitインストール手順
-1. 下記リンクからインストーラをダウンロードする。
+### Gitのインストール
+WitStudyでの開発にはGitを用いています。
+Wikiの「Gitのインストール」ページに沿ってインストールを行ってください。
 
-    [公式サイト](http://msysgit.github.io/)
+#### [Gitのインストール]()
 
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_1.png)
+### Practiceリポジトリの取得
+チュートリアル用のリポジトリを用意するために「git clone」というコマンドを用います。
+Wikiの「リポジトリのclone方法」ページに沿って「Practice」リポジトリを取得してください。
 
-2. インストーラを実行し、下図の設定でインストールする
+#### [リポジトリのclone方法]()
 
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_2.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_3.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_4.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_5.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_6.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_7.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_8.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_9.png)
-![](https://github.com/WitStudy/Practice/blob/resources/git_install_10.png)
+### commit＆pushを行う
+リポジトリが取得できたら、実際にファイルを変更しコミットを行います。
+Wikiの「リポジトリへの反映手順」ページに沿って変更分を反映してください。
 
-3. インストールが完了したら、gitがインストールされているかを確認する
-
-    `git` コマンドを使いインストールを確認してください。
-
-![](https://github.com/WitStudy/Practice/blob/resources/command_1.png)
-
-## Gitを使いGitHub上のコードをcloneする
-
-1. Practiceリポジトリをcloneする
-
-    任意の作業ディレクトリを用意し、コマンドプロンプトを開き
-    `git clone https://github.com/WitStudy/TIL.git`
-    と入力します。
-
-    取得できたら、 ディレクトリに入り、`git pull` と入力してみてください。
-    
-   ![](https://github.com/WitStudy/Practice/blob/resources/command_2.png) 
-
-2. cloneしたディレクトリから資料を取得する
-
-    続きはPracticeディレクトリ直下に置かれた「共同開発チュートリアル.xlsx」にて
-    紹介します。そちらを参照ください。
+#### [リポジトリへの反映手順]()
